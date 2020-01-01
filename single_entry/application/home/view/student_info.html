@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+table{border-collapse:collapse;text-align:center;}
+a{text-decoration:none;}
+</style>
+</head>
+<body>
+<h1>查看学生信息</h1>
+<table width="300" border="1">
+  <tr><th>ID</th><td><?php echo $data['id']; ?></td></tr>
+  <tr><th>姓名</th><td><?php echo $data['name']; ?></td></tr>
+  <tr><th>性别</th><td><?php echo $data['gender']; ?></td></tr>
+  <tr><th>年龄</th><td><?php echo $data['age']; ?></td></tr>
+</table>
+<a href="index.php">返回</a>
+</body>
+</html>
